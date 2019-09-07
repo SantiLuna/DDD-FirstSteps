@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using Domain.Base;
 
-namespace Domain.Interfaces.Services
+namespace Domain.Interfaces.Application
 {
     public interface IBaseService<TBaseEntity> : IDisposable where TBaseEntity : BaseEntity
     {

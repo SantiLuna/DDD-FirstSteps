@@ -44,13 +44,12 @@
     <Compile Include="Base\BaseEntity.cs" />
     <Compile Include="Base\PagedResult.cs" />
     <Compile Include="Interfaces\Repositories\IBaseRepository.cs" />
-    <Compile Include="Interfaces\Services\IBaseService.cs" />
+    <Compile Include="Interfaces\Application\IBaseService.cs" />
     <Compile Include="Interfaces\UoW\IUnitOfWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Entities\" />
-    <Folder Include="Interfaces\Application\" />
     <Folder Include="Interfaces\Persistence\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
